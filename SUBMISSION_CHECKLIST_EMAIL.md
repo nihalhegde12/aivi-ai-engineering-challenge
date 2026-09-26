@@ -10,7 +10,7 @@ Per the assessment brief:
 ## 📧 Email Submission Draft
 
 **To:** `<recruiter-email@aiviintelligence.com>` (or reply directly to your recruiter thread)  
-**Subject:** `[AI Task Submission] - Nihal Hegde - <Your Phone>`  
+**Subject:** `[AI Task Submission] - Nihal - <Your Phone>`  
 
 ---
 

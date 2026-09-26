@@ -199,7 +199,7 @@ styled_html = f"""<!DOCTYPE html>
 </div>
 
 <div class="meta-box">
-  <strong>Candidate Name:</strong> Nihal Hegde &nbsp;|&nbsp; 
+  <strong>Candidate Name:</strong> Nihal &nbsp;|&nbsp; 
   <strong>Role Evaluated:</strong> AI Engineer Intern &nbsp;|&nbsp;
   <strong>Repository:</strong> <a href="https://github.com/nihalhegde12/aivi-ai-engineering-challenge">github.com/nihalhegde12/aivi-ai-engineering-challenge</a>
 </div>
