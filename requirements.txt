@@ -1,0 +1,8 @@
+# AIVI Intelligence - AI Engineering Challenge Dependencies
+google-genai>=2.25.0
+pydantic>=2.10.0
+pytest>=8.0.0
+requests>=2.31.0
+httpx>=0.27.0
+tenacity>=8.2.0
+rich>=13.7.0

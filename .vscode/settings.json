@@ -1,0 +1,9 @@
+{
+  "python.testing.pytestArgs": [
+    "test_evaluator.py"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.terminal.activateEnvironment": true,
+  "files.autoSave": "afterDelay"
+}

@@ -1,0 +1,56 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "1. Run Evaluator - Clean Resume (Mock)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/resume_evaluator.py",
+      "args": ["--sample", "clean", "--mock"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "2. Run Evaluator - Prompt Injection Defense (Mock)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/resume_evaluator.py",
+      "args": ["--sample", "injection", "--mock"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "3. Run Evaluator - Hinglish Transcript (Mock)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/resume_evaluator.py",
+      "args": ["--sample", "hinglish", "--mock"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "4. Run Evaluator - Scanned OCR (Mock)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/resume_evaluator.py",
+      "args": ["--sample", "scanned", "--mock"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "5. Run Evaluator - Live Gemini API",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/resume_evaluator.py",
+      "args": ["--sample", "clean"],
+      "env": {
+        "GEMINI_API_KEY": "${env:GEMINI_API_KEY}"
+      },
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "6. Run All Tests (pytest)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["test_evaluator.py", "-v"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
